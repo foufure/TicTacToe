@@ -1,0 +1,4 @@
+﻿http://www.dreamincode.net/forums/topic/342849-introducing-mvp-model-view-presenter-pattern-winforms/
+http://blogs.lessthandot.com/index.php/architect/designingsoftware/model-view-presenter-looking-at-passive/
+http://martinfowler.com/eaaDev/PassiveScreen.html
+http://stackoverflow.com/questions/105372/how-do-i-enumerate-an-enum-in-c

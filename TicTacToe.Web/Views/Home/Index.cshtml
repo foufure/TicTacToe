@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome To TicTacToe!</title>
+    <style>
+        table,tr,td
+        {
+            empty-cells:show;
+            border: 1px solid #555;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="GameBoard">
+        <table>
+            <tr>
+                <td>@Html.ActionLink("-"+(string)ViewBag.DisplayBoardGame["A2"]+"-", "Play", new { fieldClicked = 3 })</td>
+                <td>@Html.ActionLink("-"+(string)ViewBag.DisplayBoardGame["A1"]+"-", "Play", new { fieldClicked = 2 })</td>
+                <td>@Html.ActionLink("-"+(string)ViewBag.DisplayBoardGame["A0"]+"-", "Play", new { fieldClicked = 1 })</td>
+            </tr>
+            <tr>
+                <td>@Html.ActionLink("-"+(string)ViewBag.DisplayBoardGame["B2"]+"-", "Play", new { fieldClicked = 6 })</td>
+                <td>@Html.ActionLink("-"+(string)ViewBag.DisplayBoardGame["B1"]+"-", "Play", new { fieldClicked = 5 })</td>
+                <td>@Html.ActionLink("-"+(string)ViewBag.DisplayBoardGame["B0"]+"-", "Play", new { fieldClicked = 4 })</td>
+            </tr>
+            <tr>
+                <td>@Html.ActionLink("-"+(string)ViewBag.DisplayBoardGame["C2"]+"-", "Play", new { fieldClicked = 9 })</td>
+                <td>@Html.ActionLink("-"+(string)ViewBag.DisplayBoardGame["C1"]+"-", "Play", new { fieldClicked = 8 })</td>
+                <td>@Html.ActionLink("-"+(string)ViewBag.DisplayBoardGame["C0"]+"-", "Play", new { fieldClicked = 7 })</td>
+            </tr>
+        </table>
+    </div>
+    <div id="GameInformation">
+        <p>@Html.Raw(ViewBag.displayGameInformationMessages)</p>
+        <p>@ViewBag.displayQuitGameMessage</p>
+    </div>
+    <div>
+        <span>@Html.ActionLink("Restart", "Restart")</span>
+    </div>
+</body>
+</html>

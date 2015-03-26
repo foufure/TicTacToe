@@ -1,0 +1,2 @@
+﻿http://www.codeproject.com/Articles/522809/WinForms-MVP-An-MVP-Framework-for-WinForms
+http://blog.bitlinkit.com/simple-mvp-in-winforms/

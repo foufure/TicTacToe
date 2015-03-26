@@ -1,0 +1,3 @@
+﻿http://www.codeproject.com/Articles/744882/Branch-level-code-coverage-with-NUnit-OpenCover-Re
+
+Do not forget to put "Copy alway" in the parameters of coverage.bat.

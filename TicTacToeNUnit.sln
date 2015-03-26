@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Core", "TicTacToe.Core\TicTacToe.Core.csproj", "{BAC67B3C-B3D2-41DA-8955-8631A54E2849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Core.Test", "TicTacToe.Core.Test\TicTacToe.Core.Test.csproj", "{75B7A252-CA77-4B5B-9053-BEF343DC857B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.CLI", "TicTacToe.CLI\TicTacToe.CLI.csproj", "{C2D888FB-18F8-4D74-909D-FF436DB59709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.WinForms.MVP", "TicTacToe.WinForms.MVP\TicTacToe.WinForms.MVP.csproj", "{69E07609-010D-4954-88E6-744B29258F53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CBC95171-5B2F-43C3-9653-0DAA98A8F99E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Web", "TicTacToe.Web\TicTacToe.Web.csproj", "{7F68BA2A-90FD-492E-9BE3-313C893B1BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeDBModel", "TicTacToeDBModel\TicTacToeDBModel.csproj", "{6C12C915-4A07-478F-8C9B-38DDD4543988}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAC67B3C-B3D2-41DA-8955-8631A54E2849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC67B3C-B3D2-41DA-8955-8631A54E2849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC67B3C-B3D2-41DA-8955-8631A54E2849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC67B3C-B3D2-41DA-8955-8631A54E2849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B7A252-CA77-4B5B-9053-BEF343DC857B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B7A252-CA77-4B5B-9053-BEF343DC857B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B7A252-CA77-4B5B-9053-BEF343DC857B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B7A252-CA77-4B5B-9053-BEF343DC857B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D888FB-18F8-4D74-909D-FF436DB59709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D888FB-18F8-4D74-909D-FF436DB59709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D888FB-18F8-4D74-909D-FF436DB59709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D888FB-18F8-4D74-909D-FF436DB59709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E07609-010D-4954-88E6-744B29258F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E07609-010D-4954-88E6-744B29258F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E07609-010D-4954-88E6-744B29258F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E07609-010D-4954-88E6-744B29258F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F68BA2A-90FD-492E-9BE3-313C893B1BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F68BA2A-90FD-492E-9BE3-313C893B1BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F68BA2A-90FD-492E-9BE3-313C893B1BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F68BA2A-90FD-492E-9BE3-313C893B1BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C12C915-4A07-478F-8C9B-38DDD4543988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C12C915-4A07-478F-8C9B-38DDD4543988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C12C915-4A07-478F-8C9B-38DDD4543988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C12C915-4A07-478F-8C9B-38DDD4543988}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
